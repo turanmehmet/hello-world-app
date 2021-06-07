@@ -5,7 +5,7 @@
 replicaCount: 10
 
 image:
-  repository: docker.turanmercek.com/hello-world-stage:79b8157
+  repository: docker.turanmercek.com/hello-world-stage:2e295cb
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
