@@ -4,15 +4,15 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return jsonify({
-        'message': 'hello world',
+        'message': 'hello I am a developer turan',
         'environment': os.environ.get('ENVIRONMENT'),
         'owner': 'turan',
         'namespace': os.environ.get('NAMESPACE')
     })
-@app.route('/soon')
+@app.route('/turan')
 def comming_soon():
     return jsonify({
-        'message': 'This is comming soon page!!'
+        'message': 'This is turan page!!'
     })
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
